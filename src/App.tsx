@@ -1,9 +1,15 @@
 import { MuiTypography } from './components/MuiTypography';
 import { MuiButton } from './components/MuiButton';
 import { MuiTextField } from './components/MuiTextField';
+import { MuiSelect } from './components/MuiSelect';
+import { MuiRadioButton } from './components/MuiRadioButton';
+import { MuiCheckbox } from './components/MuiCheckbox';
+import { MuiSwitch } from './components/MuiSwitch';
+import { MuiRating } from './components/MuiRating';
+import { MuiAutocomplete } from './components/MuiAutocomplete';
+import { MuiLayout } from './components/MuiLayout';
 
 import './App.css';
-import { MuiSelect } from './components/MuiSelect';
 
 const App = () => {
   return (
@@ -11,7 +17,13 @@ const App = () => {
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
       {/* <MuiTextField /> */}
-      <MuiSelect />
+      {/* <MuiSelect /> */}
+      {/* <MuiRadioButton /> */}
+      {/* <MuiCheckbox /> */}
+      {/* <MuiSwitch /> */}
+      {/* <MuiRating /> */}
+      {/* <MuiAutocomplete /> */}
+      <MuiLayout />
     </div>
   );
 };

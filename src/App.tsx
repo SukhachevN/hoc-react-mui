@@ -12,6 +12,14 @@ import { MuiCard } from './components/MuiCard';
 import { MuiAccordion } from './components/MuiAccordion';
 import { MuiImageList } from './components/MuiImageList';
 import { MuiNavbar } from './components/MuiNavbar';
+import { MuiLink } from './components/MuiLink';
+import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
+import { MuiDrawer } from './components/MuiDrawer';
+import { MuiSpeedDial } from './components/MuiSpeedDial';
+import { MuiBottomNavigation } from './components/MuiBottomNavigation';
+import { MuiAvatar } from './components/MuiAvatar';
+import { MuiBadge } from './components/MuiBadge';
+import { MuiList } from './components/MuiList';
 
 import './App.css';
 
@@ -31,7 +39,15 @@ const App = () => {
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
       {/* <MuiImageList /> */}
-      <MuiNavbar />
+      {/* <MuiNavbar /> */}
+      {/* <MuiLink /> */}
+      {/* <MuiBreadcrumbs /> */}
+      {/* <MuiDrawer /> */}
+      {/* <MuiSpeedDial /> */}
+      {/* <MuiBottomNavigation /> */}
+      {/* <MuiAvatar /> */}
+      {/* <MuiBadge /> */}
+      <MuiList />
     </div>
   );
 };

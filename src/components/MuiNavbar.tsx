@@ -35,7 +35,6 @@ const MuiNavbar = () => {
             aria-controls={open ? 'resources-menu' : undefined}
             onClick={(e) => setAnchorEl(e.currentTarget)}
             aria-haspopup='true'
-            aria-aria-expanded={open ? 'resources-menu' : undefined}
             endIcon={<KeyboardArrowDownIcon />}
           >
             Resources

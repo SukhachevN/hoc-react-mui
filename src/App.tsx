@@ -20,6 +20,14 @@ import { MuiBottomNavigation } from './components/MuiBottomNavigation';
 import { MuiAvatar } from './components/MuiAvatar';
 import { MuiBadge } from './components/MuiBadge';
 import { MuiList } from './components/MuiList';
+import { MuiChip } from './components/MuiChip';
+import { MuiTooltip } from './components/MuiTooltip';
+import { MuiTable } from './components/MuiTable';
+import { MuiAlert } from './components/MuiAlert';
+import { MuiSnackbar } from './components/MuiSnackbar';
+import { MuiDialog } from './components/MuiDialog';
+import { MuiProgress } from './components/MuiProgress';
+import { MuiSceleteon } from './components/MuiSceleton';
 
 import './App.css';
 
@@ -47,7 +55,15 @@ const App = () => {
       {/* <MuiBottomNavigation /> */}
       {/* <MuiAvatar /> */}
       {/* <MuiBadge /> */}
-      <MuiList />
+      {/* <MuiList /> */}
+      {/* <MuiChip /> */}
+      {/* <MuiTooltip /> */}
+      {/* <MuiTable /> */}
+      {/* <MuiAlert /> */}
+      {/* <MuiSnackbar /> */}
+      {/* <MuiDialog /> */}
+      {/* <MuiProgress /> */}
+      <MuiSceleteon />
     </div>
   );
 };
